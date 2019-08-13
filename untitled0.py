@@ -31,7 +31,6 @@ for i in np.arange(h):
             pix=250
         else:
             pix=20
-        pix=1+pix
         img.itemset((i,j),pix)
 
 cv2.imshow('image',img)
